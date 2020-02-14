@@ -1,0 +1,75 @@
+html
+
+h1{
+ font-family: Arial, "Times New Roman";
+ font-size: 22px;
+ font-style: italic;
+ font-weight: 200;
+ text-align: center;
+ color:black;
+}
+body{
+    background-image: url("waterfall.gif");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+
+p{
+    font-size: 20px;
+    text-align: center;
+    color: yellow;
+}
+h1 title{
+font-size: 20px;
+font-style: normal;
+}
+
+
+
+/* Container holding the image and the text */
+.container {
+    position: relative;
+    text-align: center;
+    color:purple;
+
+}
+/* Centered text */
+.centered {
+    position: absolute;
+    top: 100%;
+    left: 70%;
+    transform: translate(-50% -50%);
+    font-size: xx-large;
+    font-style: bold;
+    width: 400px;
+}
+
+
+nav{
+    background-color: darkslategrey;
+    font-size: x-large;
+    margin-left: 20px;
+    padding-right: 50px;
+    height: 60px;
+    
+
+}
+.nav a :active {
+    background-color: rgb(32, 30, 30);
+    display: inline-block;
+
+
+    }
+
+    div.social menu{
+        text-align: right;
+        overflow: auto;
+        width: 100%;
+        display: inline-block;
+
+    }
+    .nav div{
+     text-align: center;
+    }
